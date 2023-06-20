@@ -7,3 +7,7 @@ export interface ICustomButtonProps{
     handleClick: MouseEventHandler<HTMLButtonElement>;
 
 }
+export interface ISearchManufacturerProps{
+    manufacturer:string;
+    setManufacturer:(manufacturer:string)=>void;
+}
